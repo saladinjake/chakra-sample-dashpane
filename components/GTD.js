@@ -12,6 +12,8 @@ import {
   Flex
 } from "@chakra-ui/react"
 
+import FakeChart from "./FakeChart"
+
 
 
 export const GettingStarted = ({ children, ...props }) => {
@@ -38,7 +40,7 @@ export const GettingStarted = ({ children, ...props }) => {
 
        <HStack>
            <Box w="100%">
-
+               <FakeChart/>
 
            </Box>
 
