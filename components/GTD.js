@@ -41,10 +41,7 @@ export const GettingStarted = ({ children, ...props }) => {
        <HStack>
            <Box w="100%">
                <FakeChart/>
-
            </Box>
-
-
        </HStack>
      
 

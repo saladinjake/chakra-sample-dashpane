@@ -21,9 +21,9 @@ export default function Home() {
   return (
     <>
   
-    <Flex w="100%">
+    <Flex w="100%" overflowX="hidden">
       <HStack w="full" minH="100vh" alignItems="stretch" spacing={2}  align="flex-start">
-      <VStack align="flex-start"  ml="-20px">
+      <VStack align="flex-start"  ml="-5px">
          <TradeFairSidebar />
       </VStack>
       <VStack w="full" h="full">
