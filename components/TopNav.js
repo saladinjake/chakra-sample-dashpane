@@ -30,6 +30,7 @@ export const TopNav = () => {
         <Box
           display={['none', 'none', 'flex','flex']}
           h="20px"
+          
         >
          <NextLink href="/" passHref>
             <Button
@@ -39,11 +40,11 @@ export const TopNav = () => {
               
               
             >
-              Trader Coin Base
+              Logo Name here
                     </Button>
           </NextLink>
 
-          <NextLink href="/secondpage" passHref>
+          <NextLink href="/" passHref>
             <Button
               as="a"
               variant="ghost"
@@ -55,7 +56,7 @@ export const TopNav = () => {
                     </Button>
           </NextLink>
 
-          <NextLink href="/" passHref>
+          <NextLink href="/transactions" passHref>
             <Button
               as="a"
               variant="ghost"
@@ -63,12 +64,12 @@ export const TopNav = () => {
             
              
             >
-              Front Page
+              Transactions
                     </Button>
           </NextLink>
 
 
-          <NextLink href="/" passHref>
+          <NextLink href="/secondpage" passHref>
             <Button
               as="a"
               variant="ghost"
@@ -76,7 +77,7 @@ export const TopNav = () => {
             
              
             >
-              Edit Profile
+              Bare bone page
                     </Button>
           </NextLink>
 

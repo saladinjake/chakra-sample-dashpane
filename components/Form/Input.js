@@ -14,8 +14,9 @@ const InputMaker = ({ name, label, error = null, ...rest }, ref) => {
       <ChakraInput
         name={name}
         id={name}
-        focusBorderColor="pink.500"
+        focusBorderColor="rgba(8,23,200)"
         bgColor="#fff"
+        border="2px solid #eaeaea"
         variant="filled"
         _hover={{
           bgColor: '#eaeaea'

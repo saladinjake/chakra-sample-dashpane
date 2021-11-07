@@ -14,12 +14,8 @@ import {
 
 import FakeChart from "./FakeChart"
 
-
-
 export const GettingStarted = ({ children, ...props }) => {
   
-
-
   return (
     <Accordion mt="-15px" ml="-10px"  w="100%"  
     boxShadow="10px 4px 12px 0 rgba(0, 0, 0, 0.05)"

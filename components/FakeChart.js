@@ -1,30 +1,9 @@
 import { Box, Flex, SimpleGrid, Text, theme } from "@chakra-ui/react";
 import dynamic from 'next/dynamic';
-
-
 const Chart = dynamic(() => import('react-apexcharts'), {
   ssr: false
 })
-
 const options = {
-  chart: {
-    toolbar: {
-      show: false
-    },
-    zoom: {
-      enabled: false
-    },
-    foreColor: theme.colors.gray[500]
-  },
-  grid: {
-    show: false
-  },
-  dataLabels: {
-    enabled: false
-  },
-  tooltip: {
-    enabled: false
-  },
   xaxis: {
     type: 'datetime',
     axisBorder: {
@@ -43,6 +22,26 @@ const options = {
       '2021-03-24T00:00:00.000Z'
     ]
   },
+  
+  grid: {
+    show: false
+  },
+  dataLabels: {
+    enabled: false
+  },
+  tooltip: {
+    enabled: false
+  },
+  chart: {
+    toolbar: {
+      show: false
+    },
+    zoom: {
+      enabled: false
+    },
+    foreColor: theme.colors.gray[500]
+  },
+  
   fill: {
     opacity: 0.3,
     type: 'gradient',

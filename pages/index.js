@@ -6,10 +6,7 @@ import { Flex, Text,
 
    } from '@chakra-ui/react'
 import { FiMenu } from 'react-icons/fi'
-
 import { NavTabs } from "../components/NavTabs"
-
-
 
 export default function Home() {
   const colors = useColorModeValue(
@@ -20,8 +17,7 @@ export default function Home() {
   const bg = colors[tabIndex]
   return (
     <>
-  
-    <Flex w="100%" overflowX="hidden">
+    <Flex w="100%" >
       <HStack w="full" minH="100vh" alignItems="stretch" spacing={2}  align="flex-start">
       <VStack align="flex-start"  ml="-5px">
          <TradeFairSidebar />
@@ -30,7 +26,6 @@ export default function Home() {
         <NavTabs/>
       </VStack> 
       </HStack>
-
     </Flex>
     </>
   )
