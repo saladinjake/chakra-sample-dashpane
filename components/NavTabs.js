@@ -66,12 +66,12 @@ export const NavTabs = () => {
     {
       label: "Profile",
       content:
-        "Perhaps the surest dish ever invented but fills the stomach more than rice.",
+        "build somethin awesome",
     },
      {
       label: "Wallet",
       content:
-        "Perhaps the surest dish ever invented but fills the stomach more than rice.",
+        "build somethin awesome",
     },
   ]
 
