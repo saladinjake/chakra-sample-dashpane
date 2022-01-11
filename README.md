@@ -1,4 +1,4 @@
-This is ui quick sample designed an anonymous friend Eugene
+This is a quick ui  sample designed for an anonymous friend Eugene
 #Screenshot
 ![alt text](https://github.com/saladinjake/crypto_ui_for_eugene/blob/master/sample.JPG?raw=true)
 
